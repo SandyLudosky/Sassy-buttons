@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [1.6.0](https://github.com/SandyLudosky/Sassy-buttons/compare/v1.5.0...v1.6.0) (2022-04-01)
+
+
+### Bug Fixes
+
+* **button:** no animation ([6887495](https://github.com/SandyLudosky/Sassy-buttons/commit/6887495618176a0fa3b44c5499d59ca5c50e995f))
+
 ## [1.5.0](https://github.com/SandyLudosky/Sassy-buttons/compare/v1.4.0...v1.5.0) (2022-04-01)
 
 
