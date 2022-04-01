@@ -4,8 +4,7 @@
   "description": "",
   "main": "dist",
   "scripts": {
-    "watch": "sass --watch src/main.scss dist/css/main.css",
-    "copy": "cp README.md dist/README.md",
+    "watch": "sass --watch src/main.scss css/main.css",
     "release": "standard-version",
     "release:minor": "standard-version --release-as minor",
     "release:patch": "standard-version --release-as patch",
