@@ -1,10 +1,10 @@
 {
   "name": "sassy-buttons",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "",
   "main": "index.js",
   "scripts": {
-    "watch": "sass --watch scss/main.scss styles/main.css", 
+    "watch": "sass --watch scss/main.scss styles/main.css",
     "release": "standard-version",
     "release:minor": "standard-version --release-as minor",
     "release:patch": "standard-version --release-as patch",
