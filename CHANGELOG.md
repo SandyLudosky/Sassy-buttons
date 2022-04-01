@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [1.4.0](https://github.com/SandyLudosky/Sassy-buttons/compare/v1.3.0...v1.4.0) (2022-04-01)
+
+
+### Bug Fixes
+
+* **package.json:** revised npmignore ([b62c415](https://github.com/SandyLudosky/Sassy-buttons/commit/b62c415616ca609aef4ef2bcb72c4e6d114de3f2))
+
 ## [1.3.0](https://github.com/SandyLudosky/Sassy-buttons/compare/v1.2.0...v1.3.0) (2022-04-01)
 
 
