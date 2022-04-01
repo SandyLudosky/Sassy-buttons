@@ -1,70 +1,31 @@
 %shared {
-  margin: 0.5em;
-  min-width: 10em;
-  max-width: 13em;
+margin: 0.5em;
+min-width: 10em;
+max-width: 13em;
 }
-  
-  @mixin btn-mixin($palettes) {
-    @each  $color, $value in $palettes { 
-      &-#{$color} {
-        @extend %shared;
-        @include button-variant($value, $value);
-        @include btn-mixin-shades-dark($value, 5, 1);
-        @include btn-mixin-shades-light($value, 4, 1);
-        color: color-contrast($value);
+
+
+@mixin btn-mixin($palettes) {
+  @each  $color, $value in $palettes { 
+    &-#{$color} {
+      @include button-variant($value, $value);
+    }
+    &-outline-#{$color} {
+      @include button-outline-variant($value);
     }
   }
- }
-  @mixin btn-outline-mixin($palettes) {
-    @each  $color, $value in $palettes { 
-      &-#{$color} {
-        @extend %shared;
-        @if(lightness($value) < 90) {
-          @include button-outline-variant($value);
-        }
-      }
-    }
+}
+
+
+@function check-brightness($color, $amount) {
+  $clr: null;
+  @if(luma($color) <= 10) {
+    $clr: darken($color, $amount * 1%);
+  } @else {
+    $clr: lighten($color, $amount * 1%);
   }
+  @return $clr;
+}
 
 
-  @function check-brightness($color, $amount) {
-    $clr: null;
-    @if(luma($color) <= 10) {
-      $clr: darken($color, $amount * 1%);
-    } @else {
-      $clr: lighten($color, $amount * 1%);
-    }
-    @return $clr;
-  }
-  
-// @include btn-mixin-shades-dark($value, 6, 1);
 
-  @mixin btn-mixin-shades-dark($color, $repetition1, $repetition2) {
-    @if ($repetition2 <= 4) {
-      $amount: $repetition2 * 10;
-      &-#{$repetition1 * 10} {
-          @extend %shared;
-          $value: darken($color, $amount * 1%);
-          @include button-variant($value, $value);
-        }
-      @include btn-mixin-shades-dark($color, $repetition1 + 1, $repetition2 + 1);
-    }
-  }
-
-  
-  // @include btn-mixin-shades-light($value, 5, 1);
-
-  @mixin btn-mixin-shades-light($color, $repetition1,$repetition2) {
-    @if ($repetition1 >= 1) {
-      $amount: $repetition1 * 10;
-      @debug $amount;
-      &-#{$repetition2 * 10} {
-          @extend %shared;
-          $value: lighten($color, $amount * 1%);
-          @include button-variant($value, $value);
-      }
-      @include btn-mixin-shades-light($color, $repetition1 - 1, $repetition2 + 1);
-    }
-  }
-
-  

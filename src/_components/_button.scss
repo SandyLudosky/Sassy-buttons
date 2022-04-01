@@ -1,7 +1,8 @@
 
 .btn {
-    @include btn-mixin($color-palettes)
-}
-.btn-outline {
-    @include btn-outline-mixin($color-palettes)
+    @each $key, $value in $color-palettes { 
+    $palette : map-get($color-palettes, $key);
+     @debug $palette;
+     @include btn-mixin($palette);
+    }    
 }

@@ -2,42 +2,6 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
-## [1.6.0](https://github.com/SandyLudosky/Sassy-buttons/compare/v1.5.0...v1.6.0) (2022-04-01)
-
-
-### Bug Fixes
-
-* **button:** no animation ([6887495](https://github.com/SandyLudosky/Sassy-buttons/commit/6887495618176a0fa3b44c5499d59ca5c50e995f))
-
-## [1.5.0](https://github.com/SandyLudosky/Sassy-buttons/compare/v1.4.0...v1.5.0) (2022-04-01)
-
-
-### Bug Fixes
-
-* **scss:** animation fix ([52185e4](https://github.com/SandyLudosky/Sassy-buttons/commit/52185e4171187d3c8160b53e5e0e7c293871fc9e))
-
-## [1.4.0](https://github.com/SandyLudosky/Sassy-buttons/compare/v1.3.0...v1.4.0) (2022-04-01)
-
-
-### Bug Fixes
-
-* **package.json:** revised npmignore ([b62c415](https://github.com/SandyLudosky/Sassy-buttons/commit/b62c415616ca609aef4ef2bcb72c4e6d114de3f2))
-
-## [1.3.0](https://github.com/SandyLudosky/Sassy-buttons/compare/v1.2.0...v1.3.0) (2022-04-01)
-
-
-### Bug Fixes
-
-* **package.json:** npmignore ([2090c51](https://github.com/SandyLudosky/Sassy-buttons/commit/2090c51c67221b257a323c34e6d0c0634f229ef0))
-
-## [1.2.0](https://github.com/SandyLudosky/Sassy-buttons/compare/v1.1.0...v1.2.0) (2022-04-01)
-
-
-### Bug Fixes
-
-* **package.json:** edit dist folder ([c60ee87](https://github.com/SandyLudosky/Sassy-buttons/commit/c60ee87cba6d0ee6615fc07b603f5a8c10898494))
-
-## 1.1.0 (2022-04-01)
 
 
 ### Features
