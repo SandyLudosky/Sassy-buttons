@@ -1,17 +1,35 @@
-%shared {
+.shared {
 margin: 0.5em;
 min-width: 10em;
-max-width: 13em;
+width: 12em;
+}
+
+@mixin bg-mixin($palettes) {
+  @each  $color, $value in $palettes { 
+    $dark: darken($value, 30%);
+    $light: lighten($value, 30%);
+    &-#{$color} {
+      // @extend .shared;
+      background-color: $value;
+      span {
+        color: color-contrast($value, $dark, $light);
+      }
+    }
+  }
 }
 
 
 @mixin btn-mixin($palettes) {
   @each  $color, $value in $palettes { 
     &-#{$color} {
+      @extend .shared;
       @include button-variant($value, $value);
+      font-size: 0.9rem;
     }
     &-outline-#{$color} {
+      @extend .shared;
       @include button-outline-variant($value);
+      font-size: 0.9rem;
     }
   }
 }

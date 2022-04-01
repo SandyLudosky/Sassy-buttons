@@ -1,10 +1,11 @@
 @import "./_vendors/bootstrap";
-@import "./_vendors/_button";
 
 @import "./_utils/_variables";
 @import "./_utils/_mixins";
+@import "./_utils/_color-contrast";
 
 @import "./_components/_button.scss";
+@import "./_components/_background.scss";
 
 @import "./_utils/_variables";
 @import "./_utils/_mixins";

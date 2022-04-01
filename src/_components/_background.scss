@@ -1,8 +1,6 @@
-
-
-.btn {
+.bg {
     @each $key, $value in $color-palettes { 
     $palette : map-get($color-palettes, $key);
-     @include btn-mixin($palette);
+     @include bg-mixin($palette);
     }    
 }
