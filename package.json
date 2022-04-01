@@ -1,0 +1,24 @@
+{
+  "name": "sassy-buttons",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "watch": "sass --watch scss/main.scss styles/main.css", 
+    "release": "standard-version",
+    "release:minor": "standard-version --release-as minor",
+    "release:patch": "standard-version --release-as patch",
+    "release:major": "standard-version --release-as major",
+    "prepare": "husky install"
+  },
+  "devDependencies": {
+    "@commitlint/cli": "^16.0.0",
+    "@commitlint/config-conventional": "^16.0.0",
+    "husky": "^7.0.4",
+    "semantic-release": "^18.0.1",
+    "standard-version": "^9.3.2"
+  },
+  "keywords": [],
+  "author": "Sandy Ludosky",
+  "license": "ISC"
+}

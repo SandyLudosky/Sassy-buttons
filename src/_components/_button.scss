@@ -1,0 +1,7 @@
+
+.btn {
+  @include btn-mixin($color-palettes)
+}
+.btn-outline {
+  @include btn-outline-mixin($color-palettes)
+}

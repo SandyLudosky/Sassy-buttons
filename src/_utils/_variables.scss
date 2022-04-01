@@ -1,0 +1,33 @@
+
+$max-width: 1180px !default;
+
+$helvetica :Helvetica, sans-serif;
+$lato :  'Lato', sans-serif;
+
+$p1: 1em;
+$p2: 2em;
+$p4: 4em;
+
+// $theme-light: $cloud;
+// $theme-dark: $midnight-blue;
+
+// ensemble règles spécifiques
+  $color-palettes: (
+    aliceblue: aliceblue, 
+    black: black,
+    blanchedalmond: blanchedalmond,
+    blue: blue,
+    blueviolet: blueviolet,
+    burlywood : burlywood,
+    chartreuse: chartreuse,
+    brown: brown,
+    cadetblue: cadetblue,
+    chocolate: chocolate, 
+    coral: coral,
+    cornflowerblue: cornflowerblue, 
+    cornsilk: cornsilk, 
+    crimson: crimson, 
+    cyan: cyan, 
+    darkblue: darkblue,
+  );
+
