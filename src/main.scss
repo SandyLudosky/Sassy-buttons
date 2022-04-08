@@ -1,14 +1,17 @@
-@import "./_vendors/bootstrap";
+@import "./_vendors/functions";
+@import "./_vendors/variables";
+@import "./_vendors/mixins";
+@import "./_vendors/buttons";
 
-@import "./_utils/_variables";
-@import "./_utils/_mixins";
-@import "./_utils/_color-contrast";
+@import "./_utils/variables";
+@import "./_utils/mixins";
+@import "./_utils/color-contrast";
 
-@import "./_components/_button.scss";
-@import "./_components/_background.scss";
+@import "./_components/button.scss";
+@import "./_components/background.scss";
 
-@import "./_utils/_variables";
-@import "./_utils/_mixins";
+@import "./_utils/variables";
+@import "./_utils/mixins";
 
 
 

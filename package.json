@@ -1,6 +1,6 @@
 {
-  "name": "@sandyl/sassy-buttons",
-  "version": "1.1.1",
+  "name": "@sandyl.tech/sassy-buttons",
+  "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
@@ -19,6 +19,5 @@
     "standard-version": "^9.3.2"
   },
   "keywords": [],
-  "author": "Sandy Ludosky",
-  "license": "ISC"
+  "author": "Sandy Ludosky"
 }
