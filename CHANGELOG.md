@@ -2,6 +2,18 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [1.2.0](https://github.com/SandyLudosky/Sassy-buttons/compare/v1.1.1...v1.2.0) (2022-04-08)
+
+
+### Features
+
+* **buttons:** add new color palette: https://flatuicolors.com/palette/au ([84b775c](https://github.com/SandyLudosky/Sassy-buttons/commit/84b775c8a411f74d883d835cbadbc4be667f886d))
+
+
+### Bug Fixes
+
+* **scss:** removed unused source bootstrap files ([85fdc7f](https://github.com/SandyLudosky/Sassy-buttons/commit/85fdc7f6dee1ce0b7eb783973302c0ec555bfd59))
+
 ## [1.1.0](https://github.com/SandyLudosky/Sassy-buttons/compare/v1.1.1...v1.1.0) (2022-04-08)
 
 
