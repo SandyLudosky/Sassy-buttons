@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/Sassy-buttons-docs/static/css/main.6970f0d6.css",
+    "main.js": "/Sassy-buttons-docs/static/js/main.31ed84ea.js",
+    "index.html": "/Sassy-buttons-docs/index.html",
+    "main.6970f0d6.css.map": "/Sassy-buttons-docs/static/css/main.6970f0d6.css.map",
+    "main.31ed84ea.js.map": "/Sassy-buttons-docs/static/js/main.31ed84ea.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.6970f0d6.css",
+    "static/js/main.31ed84ea.js"
+  ]
+}
