@@ -8,8 +8,6 @@
 # testing
 /coverage
 
-# production
-/build
 
 # misc
 .DS_Store
@@ -22,5 +20,12 @@ npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
 
+.sass-cache/
+
 # version - changelog
 .versionrc.json
+
+# firebase hosting
+firebase-debug.log
+.firebase/
+.firebaserc

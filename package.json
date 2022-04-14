@@ -1,19 +1,22 @@
 {
   "name": "@sandyl.tech/sassy-buttons",
-  "version": "1.5.0",
+  "version": "1.7.0",
   "description": "",
   "main": "index.js",
+  "homepage": "https://sandyludosky.github.io/Sassy-buttons",
   "scripts": {
     "watch": "sass --watch src/main.scss css/main.css",
     "release": "standard-version",
     "release:minor": "standard-version --release-as minor",
     "release:patch": "standard-version --release-as patch",
     "release:major": "standard-version --release-as major",
-    "prepare": "husky install"
+    "prepare": "husky install",
+    "deploy": "gh-pages -d build"
   },
   "devDependencies": {
     "@commitlint/cli": "^16.0.0",
     "@commitlint/config-conventional": "^16.0.0",
+    "gh-pages": "^3.2.3",
     "husky": "^7.0.4",
     "semantic-release": "^18.0.1",
     "standard-version": "^9.3.2"
